@@ -105,14 +105,24 @@ function countUp(el, target, g, ms = 750) {
   const dec = (String(target).split('.')[1] || '').length;
   const t0 = performance.now();
   return new Promise((resolve) => {
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      el.innerHTML = `${fmt(target, g)}<span class="unit-suffix">${g.unit}</span>`;
+      resolve();
+    };
     function tick(t) {
+      if (done) return;
       const p = Math.min((t - t0) / ms, 1);
       const eased = 1 - Math.pow(1 - p, 3);
       const v = Number((target * eased).toFixed(dec));
       el.innerHTML = `${fmt(v, g)}<span class="unit-suffix">${g.unit}</span>`;
-      if (p < 1) requestAnimationFrame(tick); else resolve();
+      if (p < 1) requestAnimationFrame(tick); else finish();
     }
     requestAnimationFrame(tick);
+    // rAF pauses in hidden tabs — make sure the reveal always lands
+    setTimeout(finish, ms + 400);
   });
 }
 

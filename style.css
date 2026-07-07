@@ -91,7 +91,7 @@ button { font: inherit; cursor: pointer; border: none; }
   font-weight: 900; letter-spacing: -2px; line-height: 1;
   font-variant-numeric: tabular-nums;
 }
-.card .unit-suffix { font-size: 15px; font-weight: 700; letter-spacing: 0; opacity: 0.6; margin-left: 6px; }
+.card .unit-suffix { display: block; font-size: 14px; font-weight: 700; letter-spacing: 0; opacity: 0.6; margin-top: 10px; }
 .card-meta { margin-top: 8px; font-size: 12px; font-weight: 600; color: #5c6660; }
 .card-meta a { color: #2c6e54; font-weight: 700; }
 .mystery .card-value { color: #9aa39e; }
