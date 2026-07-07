@@ -6,25 +6,139 @@
       "emoji": "🏘️",
       "unit": "residents (2020 Census)",
       "items": [
-        { "label": "Burlington", "value": 44743, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "Essex (town)", "value": 22094, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Essex,_Vermont" },
-        { "label": "South Burlington", "value": 20292, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/South_Burlington,_Vermont" },
-        { "label": "Colchester", "value": 17524, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Colchester,_Vermont" },
-        { "label": "Rutland (city)", "value": 15807, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_(city),_Vermont" },
-        { "label": "Bennington", "value": 15333, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bennington,_Vermont" },
-        { "label": "Brattleboro", "value": 12184, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Brattleboro,_Vermont" },
-        { "label": "Milton", "value": 10723, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Milton,_Vermont" },
-        { "label": "Hartford", "value": 10686, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Hartford,_Vermont" },
-        { "label": "Williston", "value": 10103, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Williston,_Vermont" },
-        { "label": "Middlebury", "value": 9152, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Middlebury,_Vermont" },
-        { "label": "Springfield", "value": 9062, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Springfield,_Vermont" },
-        { "label": "Barre (city)", "value": 8491, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Barre_(city),_Vermont" },
-        { "label": "Montpelier", "value": 8074, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Montpelier,_Vermont" },
-        { "label": "Winooski", "value": 7997, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Winooski,_Vermont" },
-        { "label": "Shelburne", "value": 7717, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Shelburne,_Vermont" },
-        { "label": "St. Albans (city)", "value": 6877, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/St._Albans_(city),_Vermont" },
-        { "label": "Stowe", "value": 5223, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stowe,_Vermont" },
-        { "label": "Vergennes", "value": 2553, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vergennes,_Vermont" }
+        {
+          "label": "Burlington",
+          "value": 44743,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "Essex (town)",
+          "value": 22094,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Essex,_Vermont"
+        },
+        {
+          "label": "South Burlington",
+          "value": 20292,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/South_Burlington,_Vermont"
+        },
+        {
+          "label": "Colchester",
+          "value": 17524,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Colchester,_Vermont"
+        },
+        {
+          "label": "Rutland (city)",
+          "value": 15807,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_(city),_Vermont"
+        },
+        {
+          "label": "Bennington",
+          "value": 15333,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bennington,_Vermont"
+        },
+        {
+          "label": "Brattleboro",
+          "value": 12184,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Brattleboro,_Vermont"
+        },
+        {
+          "label": "Milton",
+          "value": 10723,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Milton,_Vermont"
+        },
+        {
+          "label": "Hartford",
+          "value": 10686,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hartford,_Vermont"
+        },
+        {
+          "label": "Williston",
+          "value": 10103,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Williston,_Vermont"
+        },
+        {
+          "label": "Middlebury",
+          "value": 9152,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Middlebury,_Vermont"
+        },
+        {
+          "label": "Springfield",
+          "value": 9062,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Springfield,_Vermont"
+        },
+        {
+          "label": "Barre (city)",
+          "value": 8491,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Barre_(city),_Vermont"
+        },
+        {
+          "label": "Montpelier",
+          "value": 8074,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Montpelier,_Vermont"
+        },
+        {
+          "label": "Winooski",
+          "value": 7997,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Winooski,_Vermont"
+        },
+        {
+          "label": "Shelburne",
+          "value": 7717,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shelburne,_Vermont"
+        },
+        {
+          "label": "St. Albans (city)",
+          "value": 6877,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/St._Albans_(city),_Vermont"
+        },
+        {
+          "label": "Stowe",
+          "value": 5223,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stowe,_Vermont"
+        },
+        {
+          "label": "Vergennes",
+          "value": 2553,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vergennes,_Vermont"
+        }
       ]
     },
     {
@@ -32,22 +146,118 @@
       "emoji": "⛰️",
       "unit": "feet above sea level",
       "items": [
-        { "label": "Mount Mansfield", "value": 4393, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Mansfield" },
-        { "label": "Killington Peak", "value": 4235, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Peak" },
-        { "label": "Camel's Hump", "value": 4083, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Camel%27s_Hump" },
-        { "label": "Mount Abraham", "value": 4006, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Abraham_(Vermont)" },
-        { "label": "Pico Peak", "value": 3957, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Pico_Peak" },
-        { "label": "Stratton Mountain", "value": 3940, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_(Vermont)" },
-        { "label": "Jay Peak", "value": 3858, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_(Vermont)" },
-        { "label": "Mount Equinox", "value": 3848, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Equinox" },
-        { "label": "Bolton Mountain", "value": 3680, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Mountain" },
-        { "label": "Mount Hunger", "value": 3539, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Hunger" },
-        { "label": "Okemo (Ludlow Mountain)", "value": 3344, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain" },
-        { "label": "Burke Mountain", "value": 3267, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_(Vermont)" },
-        { "label": "Mount Ascutney", "value": 3144, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Ascutney" },
-        { "label": "Mount Pisgah (Lake Willoughby)", "value": 2751, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Pisgah_(Vermont)" },
-        { "label": "Snake Mountain", "value": 1287, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Snake_Mountain_(Vermont)" },
-        { "label": "Mount Philo", "value": 968, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Philo" }
+        {
+          "label": "Mount Mansfield",
+          "value": 4393,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Mansfield"
+        },
+        {
+          "label": "Killington Peak",
+          "value": 4235,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Peak"
+        },
+        {
+          "label": "Camel's Hump",
+          "value": 4083,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Camel%27s_Hump"
+        },
+        {
+          "label": "Mount Abraham",
+          "value": 4006,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Abraham_(Vermont)"
+        },
+        {
+          "label": "Pico Peak",
+          "value": 3957,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pico_Peak"
+        },
+        {
+          "label": "Stratton Mountain",
+          "value": 3940,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_(Vermont)"
+        },
+        {
+          "label": "Jay Peak",
+          "value": 3858,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_(Vermont)"
+        },
+        {
+          "label": "Mount Equinox",
+          "value": 3848,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Equinox"
+        },
+        {
+          "label": "Bolton Mountain",
+          "value": 3680,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Mountain"
+        },
+        {
+          "label": "Mount Hunger",
+          "value": 3539,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Hunger"
+        },
+        {
+          "label": "Okemo (Ludlow Mountain)",
+          "value": 3344,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain"
+        },
+        {
+          "label": "Burke Mountain",
+          "value": 3267,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_(Vermont)"
+        },
+        {
+          "label": "Mount Ascutney",
+          "value": 3144,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Ascutney"
+        },
+        {
+          "label": "Mount Pisgah (Lake Willoughby)",
+          "value": 2751,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Pisgah_(Vermont)"
+        },
+        {
+          "label": "Snake Mountain",
+          "value": 1287,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Snake_Mountain_(Vermont)"
+        },
+        {
+          "label": "Mount Philo",
+          "value": 968,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Philo"
+        }
       ]
     },
     {
@@ -55,21 +265,111 @@
       "emoji": "❄️",
       "unit": "inches of snow (NWS Burlington)",
       "items": [
-        { "label": "Winter 1970–71 (all-time record)", "value": 145.4, "asOf": "1971", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2010–11", "value": 128.4, "asOf": "2011", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2000–01", "value": 122.4, "asOf": "2001", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2007–08", "value": 120.2, "asOf": "2008", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2018–19", "value": 103.6, "asOf": "2019", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2016–17", "value": 100.4, "asOf": "2017", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2014–15", "value": 83.4, "asOf": "2015", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2024–25", "value": 75.7, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2022–23", "value": 72.8, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2021–22", "value": 70.7, "asOf": "2022", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2019–20", "value": 69.7, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2020–21", "value": 63.1, "asOf": "2021", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2023–24", "value": 60.8, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2011–12", "value": 37.7, "asOf": "2012", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" },
-        { "label": "Winter 2015–16", "value": 34.3, "asOf": "2016", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/btv/historicalSnow" }
+        {
+          "label": "Winter 1970–71 (all-time record)",
+          "value": 145.4,
+          "asOf": "1971",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2010–11",
+          "value": 128.4,
+          "asOf": "2011",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2000–01",
+          "value": 122.4,
+          "asOf": "2001",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2007–08",
+          "value": 120.2,
+          "asOf": "2008",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2018–19",
+          "value": 103.6,
+          "asOf": "2019",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2016–17",
+          "value": 100.4,
+          "asOf": "2017",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2014–15",
+          "value": 83.4,
+          "asOf": "2015",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2024–25",
+          "value": 75.7,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2022–23",
+          "value": 72.8,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2021–22",
+          "value": 70.7,
+          "asOf": "2022",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2019–20",
+          "value": 69.7,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2020–21",
+          "value": 63.1,
+          "asOf": "2021",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2023–24",
+          "value": 60.8,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2011–12",
+          "value": 37.7,
+          "asOf": "2012",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        },
+        {
+          "label": "Winter 2015–16",
+          "value": 34.3,
+          "asOf": "2016",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/btv/historicalSnow"
+        }
       ]
     },
     {
@@ -78,21 +378,111 @@
       "unit": "dollars per month (ACS 2020–2024)",
       "prefix": "$",
       "items": [
-        { "label": "Williston", "value": 1832, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000784475-williston-town-chittenden-county-vt/" },
-        { "label": "South Burlington", "value": 1787, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/16000US5066175-south-burlington-vt/" },
-        { "label": "Hinesburg", "value": 1651, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000733475-hinesburg-town-chittenden-county-vt/" },
-        { "label": "Burlington", "value": 1649, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/16000US5010675-burlington-vt/" },
-        { "label": "Winooski", "value": 1643, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/16000US5085150-winooski-vt/" },
-        { "label": "Milton", "value": 1536, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000745250-milton-town-chittenden-county-vt/" },
-        { "label": "Colchester", "value": 1474, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000714875-colchester-town-chittenden-county-vt/" },
-        { "label": "Stowe", "value": 1458, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5001570525-stowe-town-lamoille-county-vt/" },
-        { "label": "Shelburne", "value": 1442, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000764300-shelburne-town-chittenden-county-vt/" },
-        { "label": "Montpelier", "value": 1302, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/16000US5046000-montpelier-vt/" },
-        { "label": "Middlebury", "value": 1156, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000144350-middlebury-town-addison-county-vt/" },
-        { "label": "Bennington", "value": 1133, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5000304825-bennington-town-bennington-county-vt/" },
-        { "label": "Brattleboro", "value": 1074, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/06000US5002507900-brattleboro-town-windham-county-vt/" },
-        { "label": "Rutland (city)", "value": 995, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/16000US5061225-rutland-vt/" },
-        { "label": "St. Johnsbury", "value": 912, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://censusreporter.org/profiles/16000US5062125-st-johnsbury-vt/" }
+        {
+          "label": "Williston",
+          "value": 1832,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000784475-williston-town-chittenden-county-vt/"
+        },
+        {
+          "label": "South Burlington",
+          "value": 1787,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/16000US5066175-south-burlington-vt/"
+        },
+        {
+          "label": "Hinesburg",
+          "value": 1651,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000733475-hinesburg-town-chittenden-county-vt/"
+        },
+        {
+          "label": "Burlington",
+          "value": 1649,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/16000US5010675-burlington-vt/"
+        },
+        {
+          "label": "Winooski",
+          "value": 1643,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/16000US5085150-winooski-vt/"
+        },
+        {
+          "label": "Milton",
+          "value": 1536,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000745250-milton-town-chittenden-county-vt/"
+        },
+        {
+          "label": "Colchester",
+          "value": 1474,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000714875-colchester-town-chittenden-county-vt/"
+        },
+        {
+          "label": "Stowe",
+          "value": 1458,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5001570525-stowe-town-lamoille-county-vt/"
+        },
+        {
+          "label": "Shelburne",
+          "value": 1442,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000764300-shelburne-town-chittenden-county-vt/"
+        },
+        {
+          "label": "Montpelier",
+          "value": 1302,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/16000US5046000-montpelier-vt/"
+        },
+        {
+          "label": "Middlebury",
+          "value": 1156,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000144350-middlebury-town-addison-county-vt/"
+        },
+        {
+          "label": "Bennington",
+          "value": 1133,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5000304825-bennington-town-bennington-county-vt/"
+        },
+        {
+          "label": "Brattleboro",
+          "value": 1074,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/06000US5002507900-brattleboro-town-windham-county-vt/"
+        },
+        {
+          "label": "Rutland (city)",
+          "value": 995,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/16000US5061225-rutland-vt/"
+        },
+        {
+          "label": "St. Johnsbury",
+          "value": 912,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://censusreporter.org/profiles/16000US5062125-st-johnsbury-vt/"
+        }
       ]
     },
     {
@@ -100,15 +490,69 @@
       "emoji": "🍁",
       "unit": "gallons (USDA NASS)",
       "items": [
-        { "label": "2026 season", "value": 3091000, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://vermontbiz.com/news/2026/june/11/2026-vermont-maple-season-production-leads-nation" },
-        { "label": "2024 season", "value": 3108000, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://www.uvm.edu/extension/maple-statistics" },
-        { "label": "2025 season", "value": 3060000, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://agriculture.vermont.gov/2025-vermont-maple-season-production-once-again-leads-nation" },
-        { "label": "2022 season", "value": 2550000, "asOf": "2022", "verified": "2026-07", "sourceUrl": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2023/Vermont-2023-Maple-Production.pdf" },
-        { "label": "2023 season", "value": 2050000, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2023/Vermont-2023-Maple-Production.pdf" },
-        { "label": "2019 season", "value": 2070000, "asOf": "2019", "verified": "2026-07", "sourceUrl": "https://www.uvm.edu/extension/maple-statistics" },
-        { "label": "2016 season", "value": 1900000, "asOf": "2016", "verified": "2026-07", "sourceUrl": "https://www.uvm.edu/extension/maple-statistics" },
-        { "label": "2021 season", "value": 1750000, "asOf": "2021", "verified": "2026-07", "sourceUrl": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2023/Vermont-2023-Maple-Production.pdf" },
-        { "label": "2013 season", "value": 1480000, "asOf": "2013", "verified": "2026-07", "sourceUrl": "https://www.uvm.edu/extension/maple-statistics" }
+        {
+          "label": "2026 season",
+          "value": 3091000,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://vermontbiz.com/news/2026/june/11/2026-vermont-maple-season-production-leads-nation"
+        },
+        {
+          "label": "2024 season",
+          "value": 3108000,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.uvm.edu/extension/maple-statistics"
+        },
+        {
+          "label": "2025 season",
+          "value": 3060000,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://agriculture.vermont.gov/2025-vermont-maple-season-production-once-again-leads-nation"
+        },
+        {
+          "label": "2022 season",
+          "value": 2550000,
+          "asOf": "2022",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2023/Vermont-2023-Maple-Production.pdf"
+        },
+        {
+          "label": "2023 season",
+          "value": 2050000,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2023/Vermont-2023-Maple-Production.pdf"
+        },
+        {
+          "label": "2019 season",
+          "value": 2070000,
+          "asOf": "2019",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.uvm.edu/extension/maple-statistics"
+        },
+        {
+          "label": "2016 season",
+          "value": 1900000,
+          "asOf": "2016",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.uvm.edu/extension/maple-statistics"
+        },
+        {
+          "label": "2021 season",
+          "value": 1750000,
+          "asOf": "2021",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2023/Vermont-2023-Maple-Production.pdf"
+        },
+        {
+          "label": "2013 season",
+          "value": 1480000,
+          "asOf": "2013",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.uvm.edu/extension/maple-statistics"
+        }
       ]
     },
     {
@@ -116,15 +560,69 @@
       "emoji": "🎓",
       "unit": "students (approx., recent fall)",
       "items": [
-        { "label": "University of Vermont", "value": 14476, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Vermont" },
-        { "label": "Vermont State University", "value": 5800, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_State_University" },
-        { "label": "Champlain College", "value": 4100, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Champlain_College" },
-        { "label": "Norwich University", "value": 3400, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Norwich_University" },
-        { "label": "Middlebury College", "value": 2858, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Middlebury_College" },
-        { "label": "Saint Michael's College", "value": 1300, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Saint_Michael%27s_College" },
-        { "label": "Bennington College", "value": 735, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bennington_College" },
-        { "label": "Vermont Law & Graduate School", "value": 606, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Law_and_Graduate_School" },
-        { "label": "Landmark College", "value": 455, "asOf": "2023", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Landmark_College" }
+        {
+          "label": "University of Vermont",
+          "value": 14476,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Vermont"
+        },
+        {
+          "label": "Vermont State University",
+          "value": 5800,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_State_University"
+        },
+        {
+          "label": "Champlain College",
+          "value": 4100,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Champlain_College"
+        },
+        {
+          "label": "Norwich University",
+          "value": 3400,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Norwich_University"
+        },
+        {
+          "label": "Middlebury College",
+          "value": 2858,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Middlebury_College"
+        },
+        {
+          "label": "Saint Michael's College",
+          "value": 1300,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Saint_Michael%27s_College"
+        },
+        {
+          "label": "Bennington College",
+          "value": 735,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bennington_College"
+        },
+        {
+          "label": "Vermont Law & Graduate School",
+          "value": 606,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Law_and_Graduate_School"
+        },
+        {
+          "label": "Landmark College",
+          "value": 455,
+          "asOf": "2023",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Landmark_College"
+        }
       ]
     },
     {
@@ -132,16 +630,76 @@
       "emoji": "🌊",
       "unit": "°F (Burlington, monthly average)",
       "items": [
-        { "label": "August", "value": 72, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "July", "value": 71, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "September", "value": 66, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "June", "value": 62, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "October", "value": 55, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "May", "value": 51, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "November", "value": 46, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "April", "value": 41, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "December", "value": 38, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" },
-        { "label": "January", "value": 34, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm" }
+        {
+          "label": "August",
+          "value": 72,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "July",
+          "value": 71,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "September",
+          "value": 66,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "June",
+          "value": 62,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "October",
+          "value": 55,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "May",
+          "value": 51,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "November",
+          "value": 46,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "April",
+          "value": 41,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "December",
+          "value": 38,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        },
+        {
+          "label": "January",
+          "value": 34,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.seatemperature.org/north-america/united-states/burlington.htm"
+        }
       ]
     },
     {
@@ -149,15 +707,69 @@
       "emoji": "🍦",
       "unit": "calories per ⅔-cup serving",
       "items": [
-        { "label": "New York Super Fudge Chunk", "value": 410, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/new-york-super-fudge-chunk-ice-cream" },
-        { "label": "Chunky Monkey", "value": 400, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/chunky-monkey-ice-cream" },
-        { "label": "Phish Food", "value": 400, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/phish-food-ice-cream" },
-        { "label": "Half Baked", "value": 380, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/half-baked-ice-cream" },
-        { "label": "Americone Dream", "value": 390, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/americone-dream-ice-cream" },
-        { "label": "Strawberry Cheesecake", "value": 360, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/strawberry-cheesecake-ice-cream" },
-        { "label": "Chocolate Fudge Brownie", "value": 350, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/chocolate-fudge-brownie-ice-cream" },
-        { "label": "Cherry Garcia", "value": 340, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/cherry-garcia-ice-cream" },
-        { "label": "Vanilla", "value": 300, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.benjerry.com/flavors/vanilla-ice-cream" }
+        {
+          "label": "New York Super Fudge Chunk",
+          "value": 410,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/new-york-super-fudge-chunk-ice-cream"
+        },
+        {
+          "label": "Chunky Monkey",
+          "value": 400,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/chunky-monkey-ice-cream"
+        },
+        {
+          "label": "Phish Food",
+          "value": 400,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/phish-food-ice-cream"
+        },
+        {
+          "label": "Half Baked",
+          "value": 380,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/half-baked-ice-cream"
+        },
+        {
+          "label": "Americone Dream",
+          "value": 390,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/americone-dream-ice-cream"
+        },
+        {
+          "label": "Strawberry Cheesecake",
+          "value": 360,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/strawberry-cheesecake-ice-cream"
+        },
+        {
+          "label": "Chocolate Fudge Brownie",
+          "value": 350,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/chocolate-fudge-brownie-ice-cream"
+        },
+        {
+          "label": "Cherry Garcia",
+          "value": 340,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/cherry-garcia-ice-cream"
+        },
+        {
+          "label": "Vanilla",
+          "value": 300,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.benjerry.com/flavors/vanilla-ice-cream"
+        }
       ]
     },
     {
@@ -165,18 +777,90 @@
       "emoji": "🍺",
       "unit": "% alcohol by volume",
       "items": [
-        { "label": "Second Fiddle (Fiddlehead)", "value": 8.2, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://fiddleheadbrewing.com/" },
-        { "label": "Heady Topper (The Alchemist)", "value": 8.0, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://alchemistbeer.com/" },
-        { "label": "Sip of Sunshine (Lawson's Finest)", "value": 8.0, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://lawsonsfinest.com/beers/sip-of-sunshine/" },
-        { "label": "Focal Banger (The Alchemist)", "value": 7.0, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://alchemistbeer.com/" },
-        { "label": "Fiddlehead IPA", "value": 6.2, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://fiddleheadbrewing.com/" },
-        { "label": "Conehead IPA (Zero Gravity)", "value": 5.7, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://zerogravitybeer.com/" },
-        { "label": "Hill Farmstead Edward", "value": 5.2, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://hillfarmstead.com/" },
-        { "label": "Unified Press (Citizen Cider)", "value": 5.2, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.citizencider.com/" },
-        { "label": "Magic Hat #9", "value": 5.1, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Magic_Hat_Brewing_Company" },
-        { "label": "Switchback Ale", "value": 5.0, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.switchbackvt.com/" },
-        { "label": "Long Trail Ale", "value": 5.0, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://longtrail.com/" },
-        { "label": "Green State Lager (Zero Gravity)", "value": 4.9, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://zerogravitybeer.com/" }
+        {
+          "label": "Second Fiddle (Fiddlehead)",
+          "value": 8.2,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://fiddleheadbrewing.com/"
+        },
+        {
+          "label": "Heady Topper (The Alchemist)",
+          "value": 8,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://alchemistbeer.com/"
+        },
+        {
+          "label": "Sip of Sunshine (Lawson's Finest)",
+          "value": 8,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://lawsonsfinest.com/beers/sip-of-sunshine/"
+        },
+        {
+          "label": "Focal Banger (The Alchemist)",
+          "value": 7,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://alchemistbeer.com/"
+        },
+        {
+          "label": "Fiddlehead IPA",
+          "value": 6.2,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://fiddleheadbrewing.com/"
+        },
+        {
+          "label": "Conehead IPA (Zero Gravity)",
+          "value": 5.7,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://zerogravitybeer.com/"
+        },
+        {
+          "label": "Hill Farmstead Edward",
+          "value": 5.2,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://hillfarmstead.com/"
+        },
+        {
+          "label": "Unified Press (Citizen Cider)",
+          "value": 5.2,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.citizencider.com/"
+        },
+        {
+          "label": "Magic Hat #9",
+          "value": 5.1,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Magic_Hat_Brewing_Company"
+        },
+        {
+          "label": "Switchback Ale",
+          "value": 5,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.switchbackvt.com/"
+        },
+        {
+          "label": "Long Trail Ale",
+          "value": 5,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://longtrail.com/"
+        },
+        {
+          "label": "Green State Lager (Zero Gravity)",
+          "value": 4.9,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://zerogravitybeer.com/"
+        }
       ]
     },
     {
@@ -184,17 +868,83 @@
       "emoji": "⛷️",
       "unit": "skiable acres",
       "items": [
-        { "label": "Killington", "value": 1509, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Ski_Resort" },
-        { "label": "Stratton", "value": 670, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_Resort" },
-        { "label": "Okemo", "value": 632, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain" },
-        { "label": "Mount Snow", "value": 601, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Snow" },
-        { "label": "Sugarbush", "value": 581, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Sugarbush_Resort" },
-        { "label": "Stowe", "value": 485, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stowe_Mountain_Resort" },
-        { "label": "Jay Peak", "value": 385, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_Resort" },
-        { "label": "Smugglers' Notch", "value": 310, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Smugglers%27_Notch_Resort" },
-        { "label": "Bolton Valley", "value": 300, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Valley" },
-        { "label": "Burke Mountain", "value": 178, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_Ski_Area" },
-        { "label": "Mad River Glen", "value": 115, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_Glen" }
+        {
+          "label": "Killington",
+          "value": 1509,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Ski_Resort"
+        },
+        {
+          "label": "Stratton",
+          "value": 670,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_Resort"
+        },
+        {
+          "label": "Okemo",
+          "value": 632,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain"
+        },
+        {
+          "label": "Mount Snow",
+          "value": 601,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Snow"
+        },
+        {
+          "label": "Sugarbush",
+          "value": 581,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sugarbush_Resort"
+        },
+        {
+          "label": "Stowe",
+          "value": 485,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stowe_Mountain_Resort"
+        },
+        {
+          "label": "Jay Peak",
+          "value": 385,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_Resort"
+        },
+        {
+          "label": "Smugglers' Notch",
+          "value": 310,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Smugglers%27_Notch_Resort"
+        },
+        {
+          "label": "Bolton Valley",
+          "value": 300,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Valley"
+        },
+        {
+          "label": "Burke Mountain",
+          "value": 178,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_Ski_Area"
+        },
+        {
+          "label": "Mad River Glen",
+          "value": 115,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_Glen"
+        }
       ]
     },
     {
@@ -202,20 +952,104 @@
       "emoji": "🎿",
       "unit": "feet of vertical",
       "items": [
-        { "label": "Killington", "value": 3050, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Ski_Resort" },
-        { "label": "Smugglers' Notch", "value": 2610, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Smugglers%27_Notch_Resort" },
-        { "label": "Sugarbush", "value": 2600, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Sugarbush_Resort" },
-        { "label": "Stowe", "value": 2360, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stowe_Mountain_Resort" },
-        { "label": "Okemo", "value": 2200, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain" },
-        { "label": "Jay Peak", "value": 2153, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_Resort" },
-        { "label": "Mad River Glen", "value": 2037, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_Glen" },
-        { "label": "Burke Mountain", "value": 2011, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_Ski_Area" },
-        { "label": "Stratton", "value": 2003, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_Resort" },
-        { "label": "Pico Mountain", "value": 1967, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Pico_Mountain" },
-        { "label": "Bolton Valley", "value": 1704, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Valley" },
-        { "label": "Mount Snow", "value": 1700, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Snow" },
-        { "label": "Magic Mountain", "value": 1500, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Magic_Mountain_Ski_Area" },
-        { "label": "Bromley", "value": 1334, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bromley_Mountain" }
+        {
+          "label": "Killington",
+          "value": 3050,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Ski_Resort"
+        },
+        {
+          "label": "Smugglers' Notch",
+          "value": 2610,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Smugglers%27_Notch_Resort"
+        },
+        {
+          "label": "Sugarbush",
+          "value": 2600,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sugarbush_Resort"
+        },
+        {
+          "label": "Stowe",
+          "value": 2360,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stowe_Mountain_Resort"
+        },
+        {
+          "label": "Okemo",
+          "value": 2200,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain"
+        },
+        {
+          "label": "Jay Peak",
+          "value": 2153,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_Resort"
+        },
+        {
+          "label": "Mad River Glen",
+          "value": 2037,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_Glen"
+        },
+        {
+          "label": "Burke Mountain",
+          "value": 2011,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_Ski_Area"
+        },
+        {
+          "label": "Stratton",
+          "value": 2003,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_Resort"
+        },
+        {
+          "label": "Pico Mountain",
+          "value": 1967,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pico_Mountain"
+        },
+        {
+          "label": "Bolton Valley",
+          "value": 1704,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Valley"
+        },
+        {
+          "label": "Mount Snow",
+          "value": 1700,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Snow"
+        },
+        {
+          "label": "Magic Mountain",
+          "value": 1500,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Magic_Mountain_Ski_Area"
+        },
+        {
+          "label": "Bromley",
+          "value": 1334,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bromley_Mountain"
+        }
       ]
     },
     {
@@ -223,18 +1057,90 @@
       "emoji": "🏂",
       "unit": "named trails",
       "items": [
-        { "label": "Killington", "value": 155, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Ski_Resort" },
-        { "label": "Okemo", "value": 121, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain" },
-        { "label": "Stowe", "value": 116, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stowe_Mountain_Resort" },
-        { "label": "Sugarbush", "value": 111, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Sugarbush_Resort" },
-        { "label": "Stratton", "value": 99, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_Resort" },
-        { "label": "Mount Snow", "value": 86, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Snow" },
-        { "label": "Jay Peak", "value": 81, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_Resort" },
-        { "label": "Smugglers' Notch", "value": 78, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Smugglers%27_Notch_Resort" },
-        { "label": "Bolton Valley", "value": 71, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Valley" },
-        { "label": "Mad River Glen", "value": 53, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_Glen" },
-        { "label": "Burke Mountain", "value": 50, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_Ski_Area" },
-        { "label": "Bromley", "value": 47, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bromley_Mountain" }
+        {
+          "label": "Killington",
+          "value": 155,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Ski_Resort"
+        },
+        {
+          "label": "Okemo",
+          "value": 121,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain"
+        },
+        {
+          "label": "Stowe",
+          "value": 116,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stowe_Mountain_Resort"
+        },
+        {
+          "label": "Sugarbush",
+          "value": 111,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sugarbush_Resort"
+        },
+        {
+          "label": "Stratton",
+          "value": 99,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_Resort"
+        },
+        {
+          "label": "Mount Snow",
+          "value": 86,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Snow"
+        },
+        {
+          "label": "Jay Peak",
+          "value": 81,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_Resort"
+        },
+        {
+          "label": "Smugglers' Notch",
+          "value": 78,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Smugglers%27_Notch_Resort"
+        },
+        {
+          "label": "Bolton Valley",
+          "value": 71,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Valley"
+        },
+        {
+          "label": "Mad River Glen",
+          "value": 53,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_Glen"
+        },
+        {
+          "label": "Burke Mountain",
+          "value": 50,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burke_Mountain_Ski_Area"
+        },
+        {
+          "label": "Bromley",
+          "value": 47,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bromley_Mountain"
+        }
       ]
     },
     {
@@ -242,17 +1148,83 @@
       "emoji": "🌨️",
       "unit": "inches per year (resort-reported)",
       "items": [
-        { "label": "Jay Peak", "value": 359, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://jaypeakresort.com/" },
-        { "label": "Smugglers' Notch", "value": 322, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.smuggs.com/" },
-        { "label": "Stowe", "value": 314, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.stowe.com/" },
-        { "label": "Bolton Valley", "value": 312, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.boltonvalley.com/" },
-        { "label": "Sugarbush", "value": 269, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.sugarbush.com/" },
-        { "label": "Killington", "value": 250, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.killington.com/" },
-        { "label": "Mad River Glen", "value": 250, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.madriverglen.com/" },
-        { "label": "Burke Mountain", "value": 217, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://skiburke.com/" },
-        { "label": "Okemo", "value": 200, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.okemo.com/" },
-        { "label": "Stratton", "value": 180, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.stratton.com/" },
-        { "label": "Mount Snow", "value": 150, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.mountsnow.com/" }
+        {
+          "label": "Jay Peak",
+          "value": 359,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://jaypeakresort.com/"
+        },
+        {
+          "label": "Smugglers' Notch",
+          "value": 322,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.smuggs.com/"
+        },
+        {
+          "label": "Stowe",
+          "value": 314,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.stowe.com/"
+        },
+        {
+          "label": "Bolton Valley",
+          "value": 312,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.boltonvalley.com/"
+        },
+        {
+          "label": "Sugarbush",
+          "value": 269,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.sugarbush.com/"
+        },
+        {
+          "label": "Killington",
+          "value": 250,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.killington.com/"
+        },
+        {
+          "label": "Mad River Glen",
+          "value": 250,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.madriverglen.com/"
+        },
+        {
+          "label": "Burke Mountain",
+          "value": 217,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://skiburke.com/"
+        },
+        {
+          "label": "Okemo",
+          "value": 200,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.okemo.com/"
+        },
+        {
+          "label": "Stratton",
+          "value": 180,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.stratton.com/"
+        },
+        {
+          "label": "Mount Snow",
+          "value": 150,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.mountsnow.com/"
+        }
       ]
     },
     {
@@ -260,20 +1232,104 @@
       "emoji": "🚗",
       "unit": "road miles from Burlington",
       "items": [
-        { "label": "New York City", "value": 295, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/New+York,+NY" },
-        { "label": "Boston", "value": 216, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Boston,+MA" },
-        { "label": "Portland, Maine", "value": 235, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Portland,+ME" },
-        { "label": "Albany, NY", "value": 155, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Albany,+NY" },
-        { "label": "Brattleboro", "value": 148, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Brattleboro,+VT" },
-        { "label": "Bennington", "value": 120, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Bennington,+VT" },
-        { "label": "White River Junction", "value": 96, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/White+River+Junction,+VT" },
-        { "label": "Montreal", "value": 95, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Montreal,+QC" },
-        { "label": "Killington Resort", "value": 92, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Killington+Resort,+VT" },
-        { "label": "Rutland", "value": 67, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Rutland,+VT" },
-        { "label": "Montpelier", "value": 39, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Montpelier,+VT" },
-        { "label": "Stowe", "value": 36, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Stowe,+VT" },
-        { "label": "Middlebury", "value": 35, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Middlebury,+VT" },
-        { "label": "St. Albans", "value": 28, "asOf": "2026", "verified": "2026-07", "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/St+Albans,+VT" }
+        {
+          "label": "New York City",
+          "value": 295,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/New+York,+NY"
+        },
+        {
+          "label": "Boston",
+          "value": 216,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Boston,+MA"
+        },
+        {
+          "label": "Portland, Maine",
+          "value": 235,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Portland,+ME"
+        },
+        {
+          "label": "Albany, NY",
+          "value": 155,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Albany,+NY"
+        },
+        {
+          "label": "Brattleboro",
+          "value": 148,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Brattleboro,+VT"
+        },
+        {
+          "label": "Bennington",
+          "value": 120,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Bennington,+VT"
+        },
+        {
+          "label": "White River Junction",
+          "value": 96,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/White+River+Junction,+VT"
+        },
+        {
+          "label": "Montreal",
+          "value": 95,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Montreal,+QC"
+        },
+        {
+          "label": "Killington Resort",
+          "value": 92,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Killington+Resort,+VT"
+        },
+        {
+          "label": "Rutland",
+          "value": 67,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Rutland,+VT"
+        },
+        {
+          "label": "Montpelier",
+          "value": 39,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Montpelier,+VT"
+        },
+        {
+          "label": "Stowe",
+          "value": 36,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Stowe,+VT"
+        },
+        {
+          "label": "Middlebury",
+          "value": 35,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/Middlebury,+VT"
+        },
+        {
+          "label": "St. Albans",
+          "value": 28,
+          "asOf": "2026",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.google.com/maps/dir/Burlington,+VT/St+Albans,+VT"
+        }
       ]
     },
     {
@@ -281,20 +1337,104 @@
       "emoji": "🗺️",
       "unit": "residents (2020 Census)",
       "items": [
-        { "label": "Chittenden County", "value": 168323, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Chittenden_County,_Vermont" },
-        { "label": "Rutland County", "value": 60572, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_County,_Vermont" },
-        { "label": "Washington County", "value": 59807, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Washington_County,_Vermont" },
-        { "label": "Windsor County", "value": 57753, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Windsor_County,_Vermont" },
-        { "label": "Franklin County", "value": 49946, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Franklin_County,_Vermont" },
-        { "label": "Windham County", "value": 45905, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Windham_County,_Vermont" },
-        { "label": "Addison County", "value": 37363, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Addison_County,_Vermont" },
-        { "label": "Bennington County", "value": 37347, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bennington_County,_Vermont" },
-        { "label": "Caledonia County", "value": 30233, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Caledonia_County,_Vermont" },
-        { "label": "Orange County", "value": 29277, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Orange_County,_Vermont" },
-        { "label": "Orleans County", "value": 27393, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Orleans_County,_Vermont" },
-        { "label": "Lamoille County", "value": 25945, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Lamoille_County,_Vermont" },
-        { "label": "Grand Isle County", "value": 7293, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Isle_County,_Vermont" },
-        { "label": "Essex County", "value": 5920, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Essex_County,_Vermont" }
+        {
+          "label": "Chittenden County",
+          "value": 168323,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chittenden_County,_Vermont"
+        },
+        {
+          "label": "Rutland County",
+          "value": 60572,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_County,_Vermont"
+        },
+        {
+          "label": "Washington County",
+          "value": 59807,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Washington_County,_Vermont"
+        },
+        {
+          "label": "Windsor County",
+          "value": 57753,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Windsor_County,_Vermont"
+        },
+        {
+          "label": "Franklin County",
+          "value": 49946,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Franklin_County,_Vermont"
+        },
+        {
+          "label": "Windham County",
+          "value": 45905,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Windham_County,_Vermont"
+        },
+        {
+          "label": "Addison County",
+          "value": 37363,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Addison_County,_Vermont"
+        },
+        {
+          "label": "Bennington County",
+          "value": 37347,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bennington_County,_Vermont"
+        },
+        {
+          "label": "Caledonia County",
+          "value": 30233,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Caledonia_County,_Vermont"
+        },
+        {
+          "label": "Orange County",
+          "value": 29277,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Orange_County,_Vermont"
+        },
+        {
+          "label": "Orleans County",
+          "value": 27393,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Orleans_County,_Vermont"
+        },
+        {
+          "label": "Lamoille County",
+          "value": 25945,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lamoille_County,_Vermont"
+        },
+        {
+          "label": "Grand Isle County",
+          "value": 7293,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Isle_County,_Vermont"
+        },
+        {
+          "label": "Essex County",
+          "value": 5920,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Essex_County,_Vermont"
+        }
       ]
     },
     {
@@ -302,20 +1442,104 @@
       "emoji": "📐",
       "unit": "square miles",
       "items": [
-        { "label": "Windsor County", "value": 971, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Windsor_County,_Vermont" },
-        { "label": "Rutland County", "value": 932, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_County,_Vermont" },
-        { "label": "Windham County", "value": 785, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Windham_County,_Vermont" },
-        { "label": "Addison County", "value": 770, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Addison_County,_Vermont" },
-        { "label": "Orleans County", "value": 697, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Orleans_County,_Vermont" },
-        { "label": "Washington County", "value": 689, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Washington_County,_Vermont" },
-        { "label": "Orange County", "value": 687, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Orange_County,_Vermont" },
-        { "label": "Bennington County", "value": 675, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Bennington_County,_Vermont" },
-        { "label": "Essex County", "value": 665, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Essex_County,_Vermont" },
-        { "label": "Caledonia County", "value": 649, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Caledonia_County,_Vermont" },
-        { "label": "Franklin County", "value": 634, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Franklin_County,_Vermont" },
-        { "label": "Chittenden County", "value": 536, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Chittenden_County,_Vermont" },
-        { "label": "Lamoille County", "value": 461, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Lamoille_County,_Vermont" },
-        { "label": "Grand Isle County", "value": 83, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Isle_County,_Vermont" }
+        {
+          "label": "Windsor County",
+          "value": 971,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Windsor_County,_Vermont"
+        },
+        {
+          "label": "Rutland County",
+          "value": 932,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_County,_Vermont"
+        },
+        {
+          "label": "Windham County",
+          "value": 785,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Windham_County,_Vermont"
+        },
+        {
+          "label": "Addison County",
+          "value": 770,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Addison_County,_Vermont"
+        },
+        {
+          "label": "Orleans County",
+          "value": 697,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Orleans_County,_Vermont"
+        },
+        {
+          "label": "Washington County",
+          "value": 689,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Washington_County,_Vermont"
+        },
+        {
+          "label": "Orange County",
+          "value": 687,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Orange_County,_Vermont"
+        },
+        {
+          "label": "Bennington County",
+          "value": 675,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bennington_County,_Vermont"
+        },
+        {
+          "label": "Essex County",
+          "value": 665,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Essex_County,_Vermont"
+        },
+        {
+          "label": "Caledonia County",
+          "value": 649,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Caledonia_County,_Vermont"
+        },
+        {
+          "label": "Franklin County",
+          "value": 634,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Franklin_County,_Vermont"
+        },
+        {
+          "label": "Chittenden County",
+          "value": 536,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chittenden_County,_Vermont"
+        },
+        {
+          "label": "Lamoille County",
+          "value": 461,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lamoille_County,_Vermont"
+        },
+        {
+          "label": "Grand Isle County",
+          "value": 83,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Isle_County,_Vermont"
+        }
       ]
     },
     {
@@ -323,18 +1547,90 @@
       "emoji": "🌡️",
       "unit": "°F (1991–2020 normals)",
       "items": [
-        { "label": "July", "value": 81.0, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "August", "value": 79.2, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "June", "value": 76.0, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "September", "value": 71.5, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "May", "value": 67.2, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "October", "value": 57.9, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "April", "value": 54.7, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "November", "value": 45.2, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "March", "value": 40.4, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "December", "value": 33.7, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "February", "value": 31.3, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "January", "value": 28.2, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" }
+        {
+          "label": "July",
+          "value": 81,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "August",
+          "value": 79.2,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "June",
+          "value": 76,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "September",
+          "value": 71.5,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "May",
+          "value": 67.2,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "October",
+          "value": 57.9,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "April",
+          "value": 54.7,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "November",
+          "value": 45.2,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "March",
+          "value": 40.4,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "December",
+          "value": 33.7,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "February",
+          "value": 31.3,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "January",
+          "value": 28.2,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        }
       ]
     },
     {
@@ -342,18 +1638,90 @@
       "emoji": "🥶",
       "unit": "°F (1991–2020 normals)",
       "items": [
-        { "label": "July", "value": 62.6, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "August", "value": 61.0, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "June", "value": 57.7, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "September", "value": 53.3, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "May", "value": 48.2, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "October", "value": 41.5, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "April", "value": 36.4, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "November", "value": 32.3, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "March", "value": 24.0, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "December", "value": 20.6, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "February", "value": 14.4, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "January", "value": 12.1, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" }
+        {
+          "label": "July",
+          "value": 62.6,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "August",
+          "value": 61,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "June",
+          "value": 57.7,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "September",
+          "value": 53.3,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "May",
+          "value": 48.2,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "October",
+          "value": 41.5,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "April",
+          "value": 36.4,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "November",
+          "value": 32.3,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "March",
+          "value": 24,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "December",
+          "value": 20.6,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "February",
+          "value": 14.4,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "January",
+          "value": 12.1,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        }
       ]
     },
     {
@@ -361,13 +1729,55 @@
       "emoji": "☃️",
       "unit": "inches of snow (1991–2020 normals)",
       "items": [
-        { "label": "January", "value": 20.6, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "December", "value": 18.6, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "February", "value": 17.3, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "March", "value": 13.5, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "November", "value": 6.4, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "April", "value": 3.5, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "October", "value": 0.2, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" }
+        {
+          "label": "January",
+          "value": 20.6,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "December",
+          "value": 18.6,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "February",
+          "value": 17.3,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "March",
+          "value": 13.5,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "November",
+          "value": 6.4,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "April",
+          "value": 3.5,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "October",
+          "value": 0.2,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        }
       ]
     },
     {
@@ -375,18 +1785,90 @@
       "emoji": "🌧️",
       "unit": "inches of precipitation (1991–2020 normals)",
       "items": [
-        { "label": "July", "value": 4.15, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "June", "value": 4.03, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "August", "value": 3.98, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "October", "value": 3.84, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "May", "value": 3.68, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "September", "value": 3.60, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "April", "value": 3.02, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "November", "value": 2.85, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "December", "value": 2.34, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "March", "value": 2.22, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "January", "value": 2.11, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" },
-        { "label": "February", "value": 1.76, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv" }
+        {
+          "label": "July",
+          "value": 4.15,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "June",
+          "value": 4.03,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "August",
+          "value": 3.98,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "October",
+          "value": 3.84,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "May",
+          "value": 3.68,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "September",
+          "value": 3.6,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "April",
+          "value": 3.02,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "November",
+          "value": 2.85,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "December",
+          "value": 2.34,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "March",
+          "value": 2.22,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "January",
+          "value": 2.11,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        },
+        {
+          "label": "February",
+          "value": 1.76,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.weather.gov/wrh/Climate?wfo=btv"
+        }
       ]
     },
     {
@@ -394,16 +1876,76 @@
       "emoji": "🛣️",
       "unit": "miles within Vermont",
       "items": [
-        { "label": "VT Route 100", "value": 216.6, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Route_100" },
-        { "label": "US Route 5", "value": 192, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_5" },
-        { "label": "Interstate 91", "value": 177.7, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Interstate_91" },
-        { "label": "US Route 7", "value": 176, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_7" },
-        { "label": "US Route 2", "value": 151, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_2" },
-        { "label": "Interstate 89", "value": 129.7, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Interstate_89" },
-        { "label": "US Route 4", "value": 66, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_4" },
-        { "label": "VT Route 15", "value": 59, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Route_15" },
-        { "label": "VT Route 9", "value": 47.6, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Route_9" },
-        { "label": "Interstate 93", "value": 11, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Interstate_93" }
+        {
+          "label": "VT Route 100",
+          "value": 216.6,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Route_100"
+        },
+        {
+          "label": "US Route 5",
+          "value": 192,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_5"
+        },
+        {
+          "label": "Interstate 91",
+          "value": 177.7,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Interstate_91"
+        },
+        {
+          "label": "US Route 7",
+          "value": 176,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_7"
+        },
+        {
+          "label": "US Route 2",
+          "value": 151,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_2"
+        },
+        {
+          "label": "Interstate 89",
+          "value": 129.7,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Interstate_89"
+        },
+        {
+          "label": "US Route 4",
+          "value": 66,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/U.S._Route_4"
+        },
+        {
+          "label": "VT Route 15",
+          "value": 59,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Route_15"
+        },
+        {
+          "label": "VT Route 9",
+          "value": 47.6,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont_Route_9"
+        },
+        {
+          "label": "Interstate 93",
+          "value": 11,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Interstate_93"
+        }
       ]
     },
     {
@@ -411,15 +1953,69 @@
       "emoji": "🥾",
       "unit": "miles of trail",
       "items": [
-        { "label": "Catamount Trail (ski)", "value": 300, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.catamounttrail.org/" },
-        { "label": "Long Trail", "value": 272, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.greenmountainclub.org/the-long-trail/" },
-        { "label": "Appalachian Trail in Vermont", "value": 150, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Appalachian_Trail" },
-        { "label": "Lamoille Valley Rail Trail", "value": 93, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.lvrt.org/" },
-        { "label": "Cross Vermont Trail", "value": 90, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.crossvermont.org/" },
-        { "label": "Missisquoi Valley Rail Trail", "value": 26.4, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.traillink.com/trail/missisquoi-valley-rail-trail/" },
-        { "label": "Island Line Trail", "value": 14, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.traillink.com/trail/island-line-rail-trail/" },
-        { "label": "Burlington Bike Path", "value": 8, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://enjoyburlington.com/venue/burlington-greenway/" },
-        { "label": "Stowe Recreation Path", "value": 5.3, "asOf": "2025", "verified": "2026-07", "sourceUrl": "https://www.gostowe.com/" }
+        {
+          "label": "Catamount Trail (ski)",
+          "value": 300,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.catamounttrail.org/"
+        },
+        {
+          "label": "Long Trail",
+          "value": 272,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.greenmountainclub.org/the-long-trail/"
+        },
+        {
+          "label": "Appalachian Trail in Vermont",
+          "value": 150,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Appalachian_Trail"
+        },
+        {
+          "label": "Lamoille Valley Rail Trail",
+          "value": 93,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.lvrt.org/"
+        },
+        {
+          "label": "Cross Vermont Trail",
+          "value": 90,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.crossvermont.org/"
+        },
+        {
+          "label": "Missisquoi Valley Rail Trail",
+          "value": 26.4,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.traillink.com/trail/missisquoi-valley-rail-trail/"
+        },
+        {
+          "label": "Island Line Trail",
+          "value": 14,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.traillink.com/trail/island-line-rail-trail/"
+        },
+        {
+          "label": "Burlington Bike Path",
+          "value": 8,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://enjoyburlington.com/venue/burlington-greenway/"
+        },
+        {
+          "label": "Stowe Recreation Path",
+          "value": 5.3,
+          "asOf": "2025",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.gostowe.com/"
+        }
       ]
     },
     {
@@ -427,14 +2023,62 @@
       "emoji": "🎤",
       "unit": "people (listed capacity)",
       "items": [
-        { "label": "Centennial Field", "value": 4415, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Centennial_Field" },
-        { "label": "Gutterson Fieldhouse", "value": 4035, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Gutterson_Fieldhouse" },
-        { "label": "Patrick Gym", "value": 3266, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Patrick_Gym" },
-        { "label": "Flynn Theater (Main Stage)", "value": 1411, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://www.flynnvt.org/" },
-        { "label": "Paramount Theatre (Rutland)", "value": 838, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://www.paramountvt.org/" },
-        { "label": "Higher Ground Ballroom", "value": 750, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://highergroundmusic.com/" },
-        { "label": "Barre Opera House", "value": 645, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://www.barreoperahouse.org/" },
-        { "label": "Higher Ground Showcase Lounge", "value": 250, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://highergroundmusic.com/" }
+        {
+          "label": "Centennial Field",
+          "value": 4415,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Centennial_Field"
+        },
+        {
+          "label": "Gutterson Fieldhouse",
+          "value": 4035,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gutterson_Fieldhouse"
+        },
+        {
+          "label": "Patrick Gym",
+          "value": 3266,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Patrick_Gym"
+        },
+        {
+          "label": "Flynn Theater (Main Stage)",
+          "value": 1411,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.flynnvt.org/"
+        },
+        {
+          "label": "Paramount Theatre (Rutland)",
+          "value": 838,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.paramountvt.org/"
+        },
+        {
+          "label": "Higher Ground Ballroom",
+          "value": 750,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://highergroundmusic.com/"
+        },
+        {
+          "label": "Barre Opera House",
+          "value": 645,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://www.barreoperahouse.org/"
+        },
+        {
+          "label": "Higher Ground Showcase Lounge",
+          "value": 250,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://highergroundmusic.com/"
+        }
       ]
     },
     {
@@ -442,14 +2086,62 @@
       "emoji": "🏞️",
       "unit": "miles long",
       "items": [
-        { "label": "Otter Creek", "value": 112, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Otter_Creek_(Vermont)" },
-        { "label": "Winooski River", "value": 90, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Winooski_River" },
-        { "label": "Missisquoi River", "value": 88, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Missisquoi_River" },
-        { "label": "Lamoille River", "value": 85, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Lamoille_River" },
-        { "label": "White River", "value": 60, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/White_River_(Vermont)" },
-        { "label": "West River", "value": 54, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/West_River_(Vermont)" },
-        { "label": "Mad River", "value": 26, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_(Vermont)" },
-        { "label": "Passumpsic River", "value": 22.7, "asOf": "2024", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Passumpsic_River" }
+        {
+          "label": "Otter Creek",
+          "value": 112,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Otter_Creek_(Vermont)"
+        },
+        {
+          "label": "Winooski River",
+          "value": 90,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Winooski_River"
+        },
+        {
+          "label": "Missisquoi River",
+          "value": 88,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Missisquoi_River"
+        },
+        {
+          "label": "Lamoille River",
+          "value": 85,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lamoille_River"
+        },
+        {
+          "label": "White River",
+          "value": 60,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/White_River_(Vermont)"
+        },
+        {
+          "label": "West River",
+          "value": 54,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/West_River_(Vermont)"
+        },
+        {
+          "label": "Mad River",
+          "value": 26,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mad_River_(Vermont)"
+        },
+        {
+          "label": "Passumpsic River",
+          "value": 22.7,
+          "asOf": "2024",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Passumpsic_River"
+        }
       ]
     },
     {
@@ -457,16 +2149,76 @@
       "emoji": "📈",
       "unit": "residents (US Census)",
       "items": [
-        { "label": "2020", "value": 643077, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "2010", "value": 625741, "asOf": "2010", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "2000", "value": 608827, "asOf": "2000", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1990", "value": 562758, "asOf": "1990", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1980", "value": 511456, "asOf": "1980", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1970", "value": 444330, "asOf": "1970", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1960", "value": 389881, "asOf": "1960", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1950", "value": 377747, "asOf": "1950", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1920", "value": 352428, "asOf": "1920", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" },
-        { "label": "1900", "value": 343641, "asOf": "1900", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Vermont" }
+        {
+          "label": "2020",
+          "value": 643077,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "2010",
+          "value": 625741,
+          "asOf": "2010",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "2000",
+          "value": 608827,
+          "asOf": "2000",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1990",
+          "value": 562758,
+          "asOf": "1990",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1980",
+          "value": 511456,
+          "asOf": "1980",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1970",
+          "value": 444330,
+          "asOf": "1970",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1960",
+          "value": 389881,
+          "asOf": "1960",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1950",
+          "value": 377747,
+          "asOf": "1950",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1920",
+          "value": 352428,
+          "asOf": "1920",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        },
+        {
+          "label": "1900",
+          "value": 343641,
+          "asOf": "1900",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vermont"
+        }
       ]
     },
     {
@@ -474,15 +2226,69 @@
       "emoji": "🏙️",
       "unit": "residents (US Census)",
       "items": [
-        { "label": "2020", "value": 44743, "asOf": "2020", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "2010", "value": 42417, "asOf": "2010", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1990", "value": 39127, "asOf": "1990", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1970", "value": 38633, "asOf": "1970", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1960", "value": 35531, "asOf": "1960", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1950", "value": 33155, "asOf": "1950", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1940", "value": 27686, "asOf": "1940", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1920", "value": 22779, "asOf": "1920", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" },
-        { "label": "1900", "value": 18640, "asOf": "1900", "verified": "2026-07", "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont" }
+        {
+          "label": "2020",
+          "value": 44743,
+          "asOf": "2020",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "2010",
+          "value": 42417,
+          "asOf": "2010",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1990",
+          "value": 39127,
+          "asOf": "1990",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1970",
+          "value": 38633,
+          "asOf": "1970",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1960",
+          "value": 35531,
+          "asOf": "1960",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1950",
+          "value": 33155,
+          "asOf": "1950",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1940",
+          "value": 27686,
+          "asOf": "1940",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1920",
+          "value": 22779,
+          "asOf": "1920",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        },
+        {
+          "label": "1900",
+          "value": 18640,
+          "asOf": "1900",
+          "verified": "2026-07",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        }
       ]
     }
   ]
