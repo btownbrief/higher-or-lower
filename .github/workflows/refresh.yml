@@ -1,0 +1,40 @@
+name: Monthly stats refresh
+
+on:
+  schedule:
+    # 1st of each month, 13:00 UTC (morning US/Eastern)
+    - cron: '0 13 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to trigger the Pages deploy after committing
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Re-verify stalest stats and add a new group with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/refresh-stats.mjs
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet data/stats.json; then
+            git config user.name "btown-brief-bot"
+            git config user.email "actions@github.com"
+            git add data/stats.json
+            git commit -m "Monthly stats refresh"
+            git push
+            # GITHUB_TOKEN pushes don't trigger the push-based deploy workflow,
+            # so kick it explicitly or the live site never gets the new stats.
+            gh workflow run deploy.yml --ref main
+          else
+            echo "No stat changes."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

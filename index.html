@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12312b">
+<title>HIGHER or LOWER: BTV — a Btown Games production</title>
+<meta name="description" content="Burlington by the numbers. Guess whether the next local stat is higher or lower — snowfall, rents, mountains, maple syrup. How long can your streak run?">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="HIGHER or LOWER: BTV">
+<meta property="og:description" content="Burlington by the numbers. Snowfall, rents, mountains, maple syrup — guess higher or lower and build a streak.">
+<meta property="og:url" content="https://btownbrief.github.io/higher-or-lower/">
+<meta property="og:image" content="https://btownbrief.github.io/higher-or-lower/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HIGHER or LOWER: BTV">
+<meta name="twitter:description" content="Burlington by the numbers. Guess higher or lower and build a streak.">
+<meta name="twitter:image" content="https://btownbrief.github.io/higher-or-lower/og-image.png">
+
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Higher or Lower">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="topbar">
+  <div class="brand">HIGHER<span class="tb-or">or</span>LOWER<span class="btv">: BTV</span></div>
+  <div class="scores">
+    <div class="badge"><small>Streak</small><b id="streak">0</b></div>
+    <div class="badge"><small>Best</small><b id="best">0</b></div>
+  </div>
+</header>
+
+<!-- Start screen -->
+<section id="intro" class="screen">
+  <h1 class="big-title">HIGHER<br><span class="accent">or LOWER</span></h1>
+  <p class="sub">BURLINGTON, BY THE NUMBERS</p>
+  <p class="deck">One local stat, face up. Another from the same category, face down.<br>
+  Is the hidden one <b class="hi">HIGHER ▲</b> or <b class="lo">LOWER ▼</b>?</p>
+  <p class="deck small">Snowfall totals · rents · mountains · maple syrup · beer · every answer sourced.</p>
+  <button class="btn-lead" id="startBtn">START THE STREAK</button>
+  <p class="fineprint" id="pool-flex"></p>
+</section>
+
+<!-- Game screen -->
+<section id="game" class="screen hidden">
+  <div id="catBanner"><span id="catEmoji"></span> <span id="catName"></span><small id="catUnit"></small></div>
+
+  <div id="cards">
+    <div class="card" id="cardA">
+      <div class="card-label" id="labelA"></div>
+      <div class="card-value"><span id="valueA"></span></div>
+      <div class="card-meta" id="metaA"></div>
+    </div>
+
+    <div id="vs">VS</div>
+
+    <div class="card mystery" id="cardB">
+      <div class="card-label" id="labelB"></div>
+      <div class="card-value"><span id="valueB">?</span></div>
+      <div class="card-meta hidden" id="metaB"></div>
+      <div id="guessRow">
+        <button class="btn-guess hi" id="higherBtn">▲ HIGHER</button>
+        <button class="btn-guess lo" id="lowerBtn">▼ LOWER</button>
+      </div>
+      <div id="verdict" class="hidden"></div>
+    </div>
+  </div>
+  <div id="hopNote" class="hidden"></div>
+</section>
+
+<!-- Game over -->
+<section id="gameover" class="screen hidden">
+  <h2 id="overTitle">STREAK OVER</h2>
+  <div class="score-big" id="finalStreak">0</div>
+  <div class="best-line" id="bestLine"></div>
+  <div id="finalSources" class="sources"></div>
+  <div class="row">
+    <button class="btn-lead" id="restartBtn">RUN IT BACK</button>
+    <button class="btn-ghost" id="shareBtn">📤 SHARE</button>
+  </div>
+
+  <div class="lb hidden" id="lb">
+    <div class="lb-tabs">
+      <button class="chip sel" id="lbThisBtn">🏆 This Month</button>
+      <button class="chip" id="lbLastBtn">Last Month</button>
+    </div>
+    <div class="lb-status" id="lbStatus"></div>
+    <ol id="lbList"></ol>
+    <div class="lb-form hidden" id="lbForm">
+      <input id="lbNameInput" maxlength="20" placeholder="Your name" autocomplete="off">
+      <button class="chip" id="lbSaveBtn">Save</button>
+    </div>
+    <button class="chip lb-rename" id="lbRenameBtn">✏️ Change name</button>
+  </div>
+
+  <a class="cta-brief" href="https://www.btownbrief.com/" target="_blank" rel="noopener">📰 Read the latest Btown Brief →</a>
+</section>
+
+<footer id="footer">A Btown Games production · <a href="https://www.btownbrief.com/" target="_blank" rel="noopener">Read the Btown Brief →</a></footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
