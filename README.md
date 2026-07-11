@@ -19,4 +19,4 @@ Burlington, by the numbers. A local-stats streak game for [Btown Games](https://
 Plain static site — no build step. `index.html` + `style.css` + `js/` ES modules.
 
 ---
-A Btown Games production · [Read the Btown Brief →](https://www.btownbrief.com)
+A Btown Games production · [Read the BTown Brief →](https://www.btownbrief.com)

@@ -34,7 +34,7 @@ const staleList = stale.map(({ g, it }, i) =>
 
 const existingCategories = data.groups.map((g) => `- ${g.category} (${g.unit})`).join('\n');
 
-const prompt = `You are the data editor for "HIGHER or LOWER: BTV", a Burlington, Vermont stats game by the Btown Brief newsletter. The game compares numeric local stats that share the SAME UNIT within a category.
+const prompt = `You are the data editor for "HIGHER or LOWER: BTV", a Burlington, Vermont stats game by the BTown Brief newsletter. The game compares numeric local stats that share the SAME UNIT within a category.
 
 Do BOTH tasks, using web search to verify every number:
 
