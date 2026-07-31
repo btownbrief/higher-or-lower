@@ -40,6 +40,17 @@ button { font: inherit; cursor: pointer; border: none; }
 }
 .badge small { display: block; font-size: 9px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.65; }
 .badge b { font-size: 18px; font-weight: 900; color: var(--gold); }
+.streak-flame { display: inline-block; width: 1em; }
+.badge.streak-hot {
+  border-color: rgba(242,177,61,0.7);
+  box-shadow: 0 0 14px rgba(232,132,44,0.26);
+}
+.badge.streak-hot small { opacity: 1; }
+.badge.streak-hot b { color: #ffc75e; }
+.badge.streak-tick b { animation: streakTick 0.24s ease; }
+@keyframes streakTick {
+  50% { transform: scale(1.28); }
+}
 
 /* ---------- screens ---------- */
 .screen { width: min(560px, 100%); display: flex; flex-direction: column; align-items: center; text-align: center; }
@@ -117,9 +128,42 @@ button { font: inherit; cursor: pointer; border: none; }
 .btn-guess.hi { background: linear-gradient(#38b56c, var(--hi)); box-shadow: 0 4px 0 #1e6e3e; }
 .btn-guess.lo { background: linear-gradient(#e25c5c, var(--lo)); box-shadow: 0 4px 0 #96302f; }
 
-#verdict { margin-top: 14px; font-size: 20px; font-weight: 900; letter-spacing: 1px; }
-#verdict.good { color: var(--hi); }
-#verdict.bad { color: var(--lo); }
+#revealStatus { margin-top: 14px; }
+#verdict { font-size: 20px; font-weight: 900; letter-spacing: 1px; }
+#verdict.good { color: var(--hi); animation: verdictGood 0.34s cubic-bezier(0.2, 1.5, 0.4, 1); }
+#verdict.bad { color: var(--lo); animation: verdictBad 0.28s ease; }
+#gapNote { margin-top: 5px; color: #53605a; font-size: 13px; font-weight: 800; }
+@keyframes verdictGood {
+  0% { opacity: 0; transform: scale(0.72); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes verdictBad {
+  0%, 100% { transform: translateX(0); }
+  30% { transform: translateX(-5px); }
+  65% { transform: translateX(4px); }
+}
+
+.milestone-pop {
+  position: fixed; z-index: 10; left: 50%; top: 42%;
+  width: min(420px, calc(100vw - 32px)); padding: 18px 24px;
+  border: 2px solid var(--gold); border-radius: 20px;
+  background: rgba(12,34,30,0.96); color: var(--card);
+  box-shadow: 0 18px 50px rgba(0,0,0,0.5), 0 0 30px rgba(232,132,44,0.3);
+  pointer-events: none;
+}
+.milestone-pop small {
+  display: block; color: var(--gold); font-size: 13px; font-weight: 900;
+  letter-spacing: 2px;
+}
+.milestone-pop strong {
+  display: block; margin-top: 3px; font-size: clamp(34px, 11vw, 56px);
+  font-weight: 900; line-height: 1;
+}
+.milestone-pop.show { animation: milestonePunch 0.55s cubic-bezier(0.2, 1.35, 0.35, 1) both; }
+@keyframes milestonePunch {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.7); }
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
 
 #hopNote {
   margin-top: 16px; padding: 8px 18px; border-radius: 999px;
@@ -190,4 +234,16 @@ button { font: inherit; cursor: pointer; border: none; }
   .card { width: calc(50% - 26px); display: flex; flex-direction: column; justify-content: center; }
   #vs { margin: auto -12px; align-self: center; }
   #guessRow { margin-top: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card, .btn-lead, .btn-guess { transition: none; }
+  #catBanner, #hopNote, #verdict.good, #verdict.bad, .badge.streak-tick b {
+    animation: none;
+  }
+  .milestone-pop.show {
+    animation: none;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
 }

@@ -8,6 +8,7 @@ const $ = (id) => document.getElementById(id);
 const MIN_GAP = 0.05;        // never pair values within 5% of each other
 const ROUNDS_PER_GROUP = 3;  // hop to a new category this often
 const BEST_KEY = 'btown-hol-best';
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
 let groups = [];
 let group = null;          // current comparison group
@@ -18,6 +19,9 @@ let best = Number(localStorage.getItem(BEST_KEY) || 0);
 let usedLabels = new Set(); // "category|label" seen this run
 let phase = 'intro';        // intro | guessing | revealing | over
 let scoreSubmitted = false;
+let runId = 0;
+let roundTimer = null;
+let milestoneTimer = null;
 
 $('best').textContent = best;
 
@@ -95,43 +99,143 @@ function renderChallenger() {
   $('valueB').textContent = '?';
   $('metaB').classList.add('hidden');
   $('metaB').innerHTML = metaHTML(challenger);
-  $('verdict').classList.add('hidden');
+  $('revealStatus').classList.add('hidden');
+  $('verdict').className = '';
+  $('verdict').textContent = '';
+  $('gapNote').textContent = '';
   $('guessRow').classList.remove('hidden');
   $('hopNote').classList.add('hidden');
 }
 
+function renderCountValue(el, value, g) {
+  if (!g) {
+    el.textContent = Math.round(value).toLocaleString('en-US');
+    return;
+  }
+  el.innerHTML = `${fmt(value, g)}<span class="unit-suffix">${g.unit}</span>`;
+}
+
 // the classic satisfying count-up
-function countUp(el, target, g, ms = 750) {
+function countUp(el, target, g = null, ms = 750, activeRun = runId) {
   const dec = (String(target).split('.')[1] || '').length;
   const t0 = performance.now();
   return new Promise((resolve) => {
     let done = false;
-    const finish = () => {
+    let frame = null;
+    let fallback = null;
+    const finish = (showTarget = true) => {
       if (done) return;
       done = true;
-      el.innerHTML = `${fmt(target, g)}<span class="unit-suffix">${g.unit}</span>`;
+      if (frame) cancelAnimationFrame(frame);
+      if (fallback) clearTimeout(fallback);
+      if (showTarget && activeRun === runId) renderCountValue(el, target, g);
       resolve();
     };
+    if (reducedMotion.matches || ms === 0) {
+      finish();
+      return;
+    }
+    renderCountValue(el, 0, g);
     function tick(t) {
       if (done) return;
+      if (activeRun !== runId) { finish(false); return; }
       const p = Math.min((t - t0) / ms, 1);
       const eased = 1 - Math.pow(1 - p, 3);
       const v = Number((target * eased).toFixed(dec));
-      el.innerHTML = `${fmt(v, g)}<span class="unit-suffix">${g.unit}</span>`;
-      if (p < 1) requestAnimationFrame(tick); else finish();
+      renderCountValue(el, v, g);
+      if (p < 1) frame = requestAnimationFrame(tick); else finish();
     }
-    requestAnimationFrame(tick);
+    frame = requestAnimationFrame(tick);
     // rAF pauses in hidden tabs — make sure the reveal always lands
-    setTimeout(finish, ms + 400);
+    fallback = setTimeout(finish, ms + 400);
   });
+}
+
+function scrambleDigits(el, target, g, activeRun, ms = 220) {
+  if (reducedMotion.matches) return Promise.resolve();
+  const template = fmt(target, g);
+  return new Promise((resolve) => {
+    const t0 = performance.now();
+    let done = false;
+    let frame = null;
+    let fallback = null;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      if (frame) cancelAnimationFrame(frame);
+      if (fallback) clearTimeout(fallback);
+      resolve();
+    };
+    function tick(t) {
+      if (activeRun !== runId) { finish(); return; }
+      const digits = template.replace(/\d/g, () => Math.floor(Math.random() * 10));
+      el.innerHTML = `${digits}<span class="unit-suffix">${g.unit}</span>`;
+      if (t - t0 < ms) frame = requestAnimationFrame(tick); else finish();
+    }
+    frame = requestAnimationFrame(tick);
+    fallback = setTimeout(finish, ms + 100);
+  });
+}
+
+function updateStreakDisplay(animate = false) {
+  const isHot = streak >= 5;
+  const badge = $('streakBadge');
+  $('streak').textContent = streak;
+  $('streakFlame').textContent = isHot ? '🔥' : '';
+  badge.classList.toggle('streak-hot', isHot);
+  badge.classList.remove('streak-tick');
+  if (animate && !reducedMotion.matches) {
+    void badge.offsetWidth;
+    badge.classList.add('streak-tick');
+  }
+}
+
+function showMilestone(activeRun) {
+  const messages = {
+    5: 'HEATING UP',
+    10: 'DOUBLE DIGITS',
+    20: 'QUEEN CITY LEGEND',
+  };
+  if (!messages[streak] || activeRun !== runId) return;
+  clearTimeout(milestoneTimer);
+  const pop = $('milestonePop');
+  $('milestoneLabel').textContent = messages[streak];
+  $('milestoneValue').textContent = `🔥 ${streak} STREAK 🔥`;
+  pop.classList.remove('hidden', 'show');
+  if (!reducedMotion.matches) void pop.offsetWidth;
+  pop.classList.add('show');
+  milestoneTimer = setTimeout(() => {
+    if (activeRun !== runId) return;
+    pop.classList.add('hidden');
+    pop.classList.remove('show');
+  }, 1100);
+}
+
+function scheduleRound(next, delay, activeRun) {
+  clearTimeout(roundTimer);
+  roundTimer = setTimeout(() => {
+    roundTimer = null;
+    if (activeRun === runId) next();
+  }, delay);
+}
+
+function resetEffects() {
+  clearTimeout(roundTimer);
+  clearTimeout(milestoneTimer);
+  roundTimer = null;
+  milestoneTimer = null;
+  $('milestonePop').classList.add('hidden');
+  $('milestonePop').classList.remove('show');
 }
 
 // ------------------------------------------------------------ game flow
 function startRun() {
+  runId += 1;
+  resetEffects();
   streak = 0;
   usedLabels = new Set();
   scoreSubmitted = false;
-  $('streak').textContent = '0';
+  updateStreakDisplay();
   $('intro').classList.add('hidden');
   $('gameover').classList.add('hidden');
   $('game').classList.remove('hidden');
@@ -161,30 +265,45 @@ function hopToGroup(exclude, announce) {
 async function guess(dir) {
   if (phase !== 'guessing') return;
   phase = 'revealing';
+  const activeRun = runId;
+  const revealedGroup = group;
+  const revealedAnchor = anchor;
+  const revealedChallenger = challenger;
   $('guessRow').classList.add('hidden');
 
-  const isHigher = challenger.value > anchor.value;
+  const isHigher = revealedChallenger.value > revealedAnchor.value;
   const correct = (dir === 'higher') === isHigher;
 
   const cardB = $('cardB');
   cardB.classList.remove('mystery');
-  await countUp($('valueB'), challenger.value, group);
+  await scrambleDigits($('valueB'), revealedChallenger.value, revealedGroup, activeRun);
+  if (activeRun !== runId) return;
+  await countUp($('valueB'), revealedChallenger.value, revealedGroup, 750, activeRun);
+  if (activeRun !== runId) return;
   $('metaB').classList.remove('hidden');
 
   const verdict = $('verdict');
-  verdict.classList.remove('hidden', 'good', 'bad');
+  const gapRatio = isHigher
+    ? revealedChallenger.value / revealedAnchor.value
+    : revealedAnchor.value / revealedChallenger.value;
+  const gap = `${gapRatio.toFixed(gapRatio >= 10 ? 0 : 1)}× ${isHigher ? 'higher' : 'lower'} than ${revealedAnchor.label}`;
+  $('gapNote').textContent = gap;
+  verdict.classList.remove('good', 'bad');
   if (correct) {
     cardB.classList.add('reveal-good');
     verdict.classList.add('good');
     streak += 1;
-    $('streak').textContent = streak;
+    updateStreakDisplay(true);
     verdict.textContent = `✓ ${isHigher ? 'HIGHER' : 'LOWER'} — streak ${streak}`;
-    setTimeout(advance, 1100);
+    $('revealStatus').classList.remove('hidden');
+    showMilestone(activeRun);
+    scheduleRound(advance, 1300, activeRun);
   } else {
     cardB.classList.add('reveal-bad');
     verdict.classList.add('bad');
     verdict.textContent = `✗ It was ${isHigher ? 'HIGHER' : 'LOWER'}`;
-    setTimeout(() => endRun(false), 1400);
+    $('revealStatus').classList.remove('hidden');
+    scheduleRound(() => endRun(false), 1400, activeRun);
   }
 }
 
@@ -203,11 +322,14 @@ function advance() {
 
 function endRun(exhausted) {
   phase = 'over';
+  clearTimeout(roundTimer);
+  roundTimer = null;
+  const activeRun = runId;
   const isBest = streak > best;
   if (isBest) { best = streak; localStorage.setItem(BEST_KEY, String(best)); }
   $('best').textContent = best;
   $('overTitle').textContent = exhausted ? 'YOU BEAT THE DATABASE!' : 'STREAK OVER';
-  $('finalStreak').textContent = streak;
+  $('finalStreak').textContent = '0';
   const bl = $('bestLine');
   bl.textContent = isBest ? 'NEW BEST!' : `Best: ${best}`;
   bl.className = isBest ? 'best-line new-best' : 'best-line';
@@ -216,6 +338,10 @@ function endRun(exhausted) {
     `<b>${challenger.label}</b>: ${fmt(challenger.value, group)} ${group.unit} (as of ${challenger.asOf}) — <a href="${challenger.sourceUrl}" target="_blank" rel="noopener">source</a>`;
   $('game').classList.add('hidden');
   $('gameover').classList.remove('hidden');
+  countUp($('finalStreak'), streak, null, streak === 0 ? 0 : 650, activeRun);
+  requestAnimationFrame(() => {
+    if (phase === 'over' && activeRun === runId) $('restartBtn').focus({ preventScroll: true });
+  });
   updateLeaderboard(streak);
 }
 
@@ -243,6 +369,8 @@ $('lowerBtn').addEventListener('click', () => guess('lower'));
 document.addEventListener('keydown', (e) => {
   // never let keystrokes in the leaderboard name box drive the game
   if (e.target.tagName === 'INPUT') return;
+  // focused buttons already handle Enter/Space natively
+  if ((e.key === ' ' || e.key === 'Enter') && e.target.closest('button, a')) return;
   if (phase === 'guessing') {
     if (e.key === 'ArrowUp' || e.key.toLowerCase() === 'h') { e.preventDefault(); guess('higher'); }
     if (e.key === 'ArrowDown' || e.key.toLowerCase() === 'l') { e.preventDefault(); guess('lower'); }
