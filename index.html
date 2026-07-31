@@ -30,7 +30,7 @@
 <header id="topbar">
   <div class="brand">HIGHER<span class="tb-or">or</span>LOWER<span class="btv">: BTV</span></div>
   <div class="scores">
-    <div class="badge"><small>Streak</small><b id="streak">0</b></div>
+    <div class="badge" id="streakBadge"><small>Streak <span id="streakFlame" class="streak-flame" aria-hidden="true"></span></small><b id="streak">0</b></div>
     <div class="badge"><small>Best</small><b id="best">0</b></div>
   </div>
 </header>
@@ -67,11 +67,19 @@
         <button class="btn-guess hi" id="higherBtn">▲ HIGHER</button>
         <button class="btn-guess lo" id="lowerBtn">▼ LOWER</button>
       </div>
-      <div id="verdict" class="hidden"></div>
+      <div id="revealStatus" class="hidden" role="status" aria-live="polite" aria-atomic="true">
+        <div id="verdict"></div>
+        <div id="gapNote"></div>
+      </div>
     </div>
   </div>
   <div id="hopNote" class="hidden"></div>
 </section>
+
+<div id="milestonePop" class="milestone-pop hidden" aria-hidden="true">
+  <small id="milestoneLabel"></small>
+  <strong id="milestoneValue"></strong>
+</div>
 
 <!-- Game over -->
 <section id="gameover" class="screen hidden">
