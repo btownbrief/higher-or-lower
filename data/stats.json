@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07",
+  "updated": "2026-08-01",
   "groups": [
     {
       "category": "Vermont town & city populations",
@@ -10,70 +10,70 @@
           "label": "Burlington",
           "value": 44743,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
         },
         {
           "label": "Essex (town)",
           "value": 22094,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Essex,_Vermont"
         },
         {
           "label": "South Burlington",
           "value": 20292,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/South_Burlington,_Vermont"
         },
         {
           "label": "Colchester",
           "value": 17524,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Colchester,_Vermont"
         },
         {
           "label": "Rutland (city)",
           "value": 15807,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Rutland_(city),_Vermont"
         },
         {
           "label": "Bennington",
           "value": 15333,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Bennington,_Vermont"
         },
         {
           "label": "Brattleboro",
           "value": 12184,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Brattleboro,_Vermont"
         },
         {
           "label": "Milton",
           "value": 10723,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Milton,_Vermont"
         },
         {
           "label": "Hartford",
           "value": 10686,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Hartford,_Vermont"
         },
         {
           "label": "Williston",
           "value": 10103,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-08",
           "sourceUrl": "https://en.wikipedia.org/wiki/Williston,_Vermont"
         },
         {
