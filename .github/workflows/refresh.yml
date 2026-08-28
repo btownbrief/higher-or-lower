@@ -20,7 +20,7 @@ jobs:
           node-version: 20
       - name: Re-verify stalest stats and add a new group with Claude
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: node scripts/refresh-stats.mjs
       - name: Commit if changed
         run: |

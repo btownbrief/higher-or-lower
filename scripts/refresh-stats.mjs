@@ -14,12 +14,12 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const FILE = join(dirname(fileURLToPath(import.meta.url)), '..', 'data', 'stats.json');
-const MODEL = 'claude-sonnet-5';
+const MODEL = 'z-ai/glm-5.3-flash';
 const STALE_COUNT = 10;
 const MIN_GAP = 0.05;
 
-const API_KEY = process.env.ANTHROPIC_API_KEY;
-if (!API_KEY) { console.error('ANTHROPIC_API_KEY is not set'); process.exit(1); }
+const API_KEY = process.env.OPENROUTER_API_KEY;
+if (!API_KEY) { console.error('OPENROUTER_API_KEY is not set'); process.exit(1); }
 
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 
@@ -61,7 +61,7 @@ Reply with ONLY this JSON object (no markdown fences, no commentary):
 }`;
 
 // ---------------------------------------------------------------- Claude + web search
-const res = await fetch('https://api.anthropic.com/v1/messages', {
+const res = await fetch('https://openrouter.ai/api/v1/messages', {
   method: 'POST',
   headers: {
     'x-api-key': API_KEY,
