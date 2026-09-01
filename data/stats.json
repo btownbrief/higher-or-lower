@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01",
+  "updated": "2026-09-01",
   "groups": [
     {
       "category": "Vermont town & city populations",
@@ -80,63 +80,63 @@
           "label": "Middlebury",
           "value": 9152,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Middlebury,_Vermont"
         },
         {
           "label": "Springfield",
           "value": 9062,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Springfield,_Vermont"
         },
         {
           "label": "Barre (city)",
           "value": 8491,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Barre_(city),_Vermont"
         },
         {
           "label": "Montpelier",
           "value": 8074,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Montpelier,_Vermont"
         },
         {
           "label": "Winooski",
           "value": 7997,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Winooski,_Vermont"
         },
         {
           "label": "Shelburne",
           "value": 7717,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Shelburne,_Vermont"
         },
         {
           "label": "St. Albans (city)",
           "value": 6877,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/St._Albans_(city),_Vermont"
         },
         {
           "label": "Stowe",
           "value": 5223,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Stowe,_Vermont"
         },
         {
           "label": "Vergennes",
           "value": 2553,
           "asOf": "2020",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Vergennes,_Vermont"
         }
       ]
@@ -150,7 +150,7 @@
           "label": "Mount Mansfield",
           "value": 4393,
           "asOf": "2024",
-          "verified": "2026-07",
+          "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Mansfield"
         },
         {
@@ -2288,6 +2288,69 @@
           "asOf": "1900",
           "verified": "2026-07",
           "sourceUrl": "https://en.wikipedia.org/wiki/Burlington,_Vermont"
+        }
+      ]
+    },
+    {
+      "category": "Vermont lake depths",
+      "emoji": "🌊",
+      "unit": "feet deep (maximum depth)",
+      "items": [
+        {
+          "label": "Lake Champlain",
+          "value": 400,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Champlain"
+        },
+        {
+          "label": "Lake Willoughby",
+          "value": 320,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Willoughby"
+        },
+        {
+          "label": "Caspian Lake",
+          "value": 142,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Caspian_Lake"
+        },
+        {
+          "label": "Crystal Lake",
+          "value": 107,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Crystal_Lake_(Vermont)"
+        },
+        {
+          "label": "Lake Dunmore",
+          "value": 102,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Dunmore"
+        },
+        {
+          "label": "Lake St. Catherine",
+          "value": 64,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_St._Catherine"
+        },
+        {
+          "label": "Lake Bomoseen",
+          "value": 58,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Bomoseen"
+        },
+        {
+          "label": "Lake Elmore",
+          "value": 45,
+          "asOf": "2025",
+          "verified": "2026-09",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Elmore"
         }
       ]
     }
