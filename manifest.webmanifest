@@ -1,0 +1,22 @@
+{
+  "name": "Higher or Lower",
+  "short_name": "Higher or Lower",
+  "description": "Higher or Lower. A Btown Games production.",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12312b",
+  "theme_color": "#12312b",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
