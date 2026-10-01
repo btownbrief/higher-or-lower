@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-10-01",
   "groups": [
     {
       "category": "Vermont town & city populations",
@@ -155,72 +155,72 @@
         },
         {
           "label": "Killington Peak",
-          "value": 4235,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "value": 4229,
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Killington_Peak"
         },
         {
           "label": "Camel's Hump",
           "value": 4083,
-          "asOf": "2024",
-          "verified": "2026-07",
-          "sourceUrl": "https://en.wikipedia.org/wiki/Camel%27s_Hump"
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Camel%27s_Hump_(Vermont)"
         },
         {
           "label": "Mount Abraham",
           "value": 4006,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Abraham_(Vermont)"
         },
         {
           "label": "Pico Peak",
-          "value": 3957,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "value": 3967,
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Pico_Peak"
         },
         {
           "label": "Stratton Mountain",
           "value": 3940,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Stratton_Mountain_(Vermont)"
         },
         {
           "label": "Jay Peak",
-          "value": 3858,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "value": 3862,
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Jay_Peak_(Vermont)"
         },
         {
           "label": "Mount Equinox",
           "value": 3848,
-          "asOf": "2024",
-          "verified": "2026-07",
-          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Equinox"
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://equinoxmountain.com/the-mountain/"
         },
         {
           "label": "Bolton Mountain",
           "value": 3680,
-          "asOf": "2024",
-          "verified": "2026-07",
-          "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Mountain"
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bolton_Mountain_(Vermont)"
         },
         {
           "label": "Mount Hunger",
           "value": 3539,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Hunger"
         },
         {
           "label": "Okemo (Ludlow Mountain)",
           "value": 3344,
-          "asOf": "2024",
-          "verified": "2026-07",
+          "asOf": "2025",
+          "verified": "2026-10",
           "sourceUrl": "https://en.wikipedia.org/wiki/Okemo_Mountain"
         },
         {
@@ -2351,6 +2351,69 @@
           "asOf": "2025",
           "verified": "2026-09",
           "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Elmore"
+        }
+      ]
+    },
+    {
+      "category": "Vermont covered bridge lengths",
+      "emoji": "🌉",
+      "unit": "feet long",
+      "items": [
+        {
+          "label": "Cornish–Windsor Covered Bridge",
+          "value": 449.5,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cornish%E2%80%93Windsor_Covered_Bridge"
+        },
+        {
+          "label": "West Dummerston Covered Bridge",
+          "value": 267,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/West_Dummerston_Covered_Bridge"
+        },
+        {
+          "label": "Scott Covered Bridge (Wilmington)",
+          "value": 246.75,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Scott_Covered_Bridge"
+        },
+        {
+          "label": "Paper Mill Village Bridge (Bennington)",
+          "value": 167,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Paper_Mill_Village_Bridge"
+        },
+        {
+          "label": "Taftsville Covered Bridge",
+          "value": 163.5,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Taftsville_Covered_Bridge"
+        },
+        {
+          "label": "Pulp Mill Bridge (Middlebury)",
+          "value": 150,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pulp_Mill_Bridge"
+        },
+        {
+          "label": "Willard Covered Bridge (Hartland)",
+          "value": 121,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Willard_Covered_Bridge"
+        },
+        {
+          "label": "Waitsfield Covered Bridge",
+          "value": 105,
+          "asOf": "2025",
+          "verified": "2026-10",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Waitsfield_Covered_Bridge"
         }
       ]
     }
